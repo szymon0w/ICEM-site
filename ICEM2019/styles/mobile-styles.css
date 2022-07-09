@@ -1,0 +1,192 @@
+@media only screen and (max-width: 768px){
+  .navbar-custom{
+    height: 12vh;
+    font-size: 3vh;
+  }
+
+  .nav-item{
+    background-color: white;
+    padding-left: 5vw;
+    margin: 0;
+  }
+
+  .logo{
+    height: 5vh;
+    width: auto;
+    padding: 0;
+  }
+
+  .top{
+    margin-top: 12vh;
+  }
+
+  .over-image{
+    top: 20vh;
+  }
+
+  .h-main{
+    font-size: 12.5vw;
+  }
+
+  .f-under{
+    width: 68.5vw;
+    border: 1.4px solid white;
+    bottom: 2.4vh;
+  }
+
+  .date{
+    width: 58.5vw;
+    bottom: 2.4vh;
+  }
+
+  .h-date{
+    font-size: 5vw;
+  }
+
+  .indicators-custom{
+    display: none;
+  }
+
+  .h-section{
+    font-size: 9vw;
+  }
+
+ .t-section{
+   font-size: 5vw;
+   text-align: left;
+   margin: 2vh 4vw 4vh 4vw;
+ }
+
+ .s-under{
+  border: 0.28vh solid white;
+  bottom: 2vh;
+ }
+
+ .a-under{
+   width: 58vw;
+ }
+
+ .about-main{
+   flex-direction: column;
+ }
+
+ .about-head{
+   font-size: 10vw;
+ }
+
+ .w-under{
+   width: 91vw;
+ }
+
+.sign-up-btn-nav{
+  width: 80vw;
+  border: 1vw solid grey;
+}
+
+.day{
+  font-size: 3vh;
+}
+
+.sh-under{
+  width: 43vw;
+}
+
+.s-main{
+  margin: 2vh 4vw 4vh 4vw;
+}
+
+.s-el{
+  font-size: 5vw;
+}
+
+.g-under{
+  width: 49vw;
+}
+
+.guide-img{
+  width: 60vw;
+  height: auto;
+}
+
+.nav-mobile{
+  position: relative;
+  left: 14vw;
+  width: 50vw;
+}
+
+.p-under{
+  width: 42vw;
+}
+
+.payinfo{
+  font-size: 5vw;
+}
+
+.p-info{
+  font-size: 4vw;
+}
+
+.c-under{
+  width: 51vw;
+}
+
+.c-card{
+  font-size: 5vw;
+}
+
+.contact-icon{
+  width:5vw;
+  height: auto;
+}
+
+.fb-icon{
+  width: 15vw;
+  position: relative;
+  right: 17vw;
+}
+
+.fb-inv-text{
+  position: relative;
+  top: 4vw;
+  right: 13vw;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sp-under{
+  width: 45vw;
+}
+
+.sponsors-head {
+  font-size: 10vw;
+}
+
+.sp-logo {
+  margin-top: 4vw;
+  margin-bottom: 4vw; 
+}
+
+.footer{
+  font-size: 3vw;
+  width: 90%;
+}
+
+.qrcode-gen{
+  font-size: 6vw;
+  margin-top: 2vw;
+  padding: 2vw;
+  border: 1vw solid grey;
+}
+
+.qr-btn{
+  margin: 2vw;
+  padding: 2vw;
+}
+
+.q-under{
+  width: 55vw;
+}
+}

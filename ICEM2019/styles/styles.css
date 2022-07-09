@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(../font/josefin-sans/JosefinSans-Bold.ttf);
+}
+
+body {
+  color: #6a706e;
+  margin: 0;
+}
+
+.navbar-custom{
+  height: 5vw;
+  font-size: 1.5vw;
+}
+
+.logo{
+  height: 2.5vw;
+}
+
+.top{
+  margin-top: 5vw;
+  margin-bottom: 1vw;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.over-image{
+  position: absolute;
+  left: 10vw;
+  top: 15vw;
+  color: white;
+  text-shadow: 1px 1px 8px black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.h-main{
+  font-size: 7.5vw;
+}
+
+.f-under{
+  width: 45vw;
+  border: 0.3vw solid white;
+  position: relative;
+  bottom: 2vw;
+  right: 10vw;
+  box-shadow: 1px 1px 8px black;
+  /* add mobile rule to the one below */
+  margin-top: 0.7vw;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 2vw;
+  width: 35vw;
+}
+
+.h-date {
+  font-size: 2.5vw;
+}
+
+.paralax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section{
+  padding-bottom: 3vw;
+  margin-bottom: 1vw;
+}
+
+.b-about {
+  background-image: url(../img/stock1-full.jpg);
+}
+
+.h-section{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3vw;
+  margin-left: 10vw;
+  padding-top: 5vw;
+  text-shadow: 1px 1px 8px black;
+}
+
+.s-under {
+  border: 0.16vw solid white;
+  position: relative;
+  box-shadow: 1px 1px 8px black;
+  bottom: 1vw;
+}
+
+.a-under{
+  width: 26vw;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.about-item{
+  padding: 0 5% 0 5%;
+  text-align: center;
+}
+
+.about-head{
+  font-family: 'Josefin Sans';
+  font-size: 3vw;
+}
+
+.t-section {
+  padding: 3vw 10vw 3vw 10vw;
+  background-color: white;
+  font-size: 1.5vw;
+  opacity: 0.9;
+  margin: 5vw 10vw 5vw 10vw;
+  text-align: justify;
+}
+
+.b-why{
+  background-image: url(../img/stock2-full.jpg);
+}
+
+.w-under {
+ width: 40.5vw;
+}
+
+.sign-up-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sign-up-btn-nav {
+  border: 0.3vw solid #6a706e;
+}
+
+.b-schedule {
+  background-image: url(../img/stock3-full.jpg);
+}
+
+.sh-under{
+  width: 21vw;
+}
+
+.s-main {
+  background-color: white;
+  opacity: 0.9;
+  margin: 5vw 10vw 5vw 10vw;
+  font-size: 1.3vw;
+  padding-bottom: 3vw;
+}
+
+.day {
+  padding: 2vw 0vw 1vw 5vw;
+  font-size: 2vw;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.s-el{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+.s-even {
+  background-color: #e3e3e3;
+}
+
+.s-odd {
+  background-color: #f0f0f0;
+}
+
+.b-guide{
+  background-image: url(../img/stock4-full.jpg)
+}
+
+.g-under {
+  width: 23vw;
+}
+
+.nav-custom {
+  color: #6a706e;
+  width: 25vw;
+}
+
+.guide-img{
+  width: 10vw;
+  height: auto;
+}
+
+.responsive:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.1);
+  color: #545957;
+}
+
+.b-pay {
+  background-image: url(../img/stock5-full.jpg)
+}
+
+.p-under {
+  width: 20.7vw;
+}
+
+.payinfo {
+  padding: 2vw 5vw 1vw 5vw;
+  font-size: 1.5vw;
+}
+
+.p-head{
+  font-size: 1.6vw;
+}
+
+.p-info{
+  font-size: 1vw;
+}
+
+.b-contact{
+  background-image: url(../img/stock6-full.jpg)
+}
+
+.c-under {
+  width: 23.7vw;
+}
+
+.c-card{
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  text-align: center;
+}
+
+.contact-icon{
+  width: 1.5vw;
+  height: auto;
+}
+
+.fb-inv{
+  margin-top: 3vw;
+  text-align: center;
+}
+
+.fb-icon {
+  width: 14vw;
+  height: auto;
+}
+
+.b-sponsors{
+  background-image: url(../img/stock7-full.jpg);
+}
+
+.sp-under{
+  width: 21vw;
+}
+
+.sp-logo{
+  width: 100%;
+  height: auto;
+  padding: 2vw;
+}
+
+.sponsors-head {
+  text-align: center;
+  font-size: 2.7vw;
+  font-weight: 600;
+}
+
+.footer{
+  font-size: 1vw;
+  font-style: 'Josefin Sans', sans-serif;
+  position: relative;
+  bottom: 0.5vw;
+  left: 3vw;
+  width: 50%;
+}
+
+.qrcode-gen{
+  background-color: white;
+  border: 0.3vw solid grey;
+  color: #6a706e;
+  padding: 0.7vw;
+  margin: 1vw;
+  font-size: 1.7vw;
+}
+
+.q-under {
+  width: 29.5vw;
+}
+
+.qr-site{
+  margin-top: 5vw;
+  height: 100vh;
+}
